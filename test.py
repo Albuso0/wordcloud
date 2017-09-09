@@ -1,6 +1,6 @@
 from wordcloud import *
 
-text = read_file('test.txt')
+text = read_file('tres_leches.txt')
 words = text_to_words(text)
 words = pre_process(words)
 freq = words_to_freq(words)
